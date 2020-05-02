@@ -8,7 +8,6 @@ class ActorFramework(ConanFile):
     homepage="https://www.actor-framework.org"
     generators="cmake", "virtualenv"
     settings="os", "arch", "compiler", "build_type"
-    exports_sources="*"
     sources_name="actor-framework-0.17.4"
 
     def source(self):
